@@ -1,0 +1,9 @@
+libdir=/home/visteon/google_mock_fun/googletest/build/tmp/lib/x86_64-linux-gnu
+includedir=/home/visteon/google_mock_fun/googletest/build/tmp/include
+
+Name: gmock
+Description: GoogleMock (without main() function)
+Version: 
+URL: https://github.com/google/googletest
+Libs: -L${libdir} -lgmock -lpthread
+Cflags: -I${includedir} -DGTEST_HAS_PTHREAD=1 -lpthread
