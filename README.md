@@ -12,6 +12,7 @@ $ cd inside git directory
 $ mkdir build
 $ cd build
 $ cmake ..
+$ make
 ``` 
 
 This will generate a "runme" executable.
